@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD using NodeJS and MySQL</title>
+</head>
+<body>
+    <form action="/add" method="post" onSubmit="return true;">
+        <h3>Product Information</h3>
+        <label for="product_ID"> Product ID:
+            <input type="text" name="product_ID" id=""> <br>
+        </label><br>
+        <label for="artist_name"> Artist Name:
+            <input type="text" name="artist_name" id=""> <br>
+        </label><br>
+        <label for="song_title"> Song Title:
+            <input type="text" name="song_title" id=""> <br>
+        </label><br>
+        <label for="category"> Select a Category:
+            <select name="category" id=""> <br>
+                <option value="1">Secular</option>
+                <option value="2">Gospel</option>
+            </select>
+        </label><br><br>
+        <input type="submit" value="Submit"> &nbsp;&nbsp;&nbsp;
+        <input type="reset" value="Reset">
+    </form>
+</body>
+</html>
